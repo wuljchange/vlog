@@ -1,0 +1,45 @@
+.sidebar {
+    width: 16%;
+    position: sticky;
+    height: calc(100vh);
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    overflow: auto;
+}
+
+.sidebar-content {
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+#sidebar-logo:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sidebar-logo:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sidebar-logo:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.font-logo {
+    font-family: "American Typewriter";
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.main {
+    width: 84%;
+    overflow: auto;
+}
+
+.footer {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+}
